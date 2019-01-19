@@ -42,7 +42,7 @@ cd 'C:\Users\Bob\Downloads'
 Enable the running of a script file downloaded from the internet by copy/pasting the command below. (Don't worry the `-Scope Process` means it is just a temporary setting for running this file and does not permanently lower your system's security! )
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+Set-ExecutionPolicy Bypass -Scope Process -Force
 ```
 
 Answer with a Y when prompted to allow the security change.
