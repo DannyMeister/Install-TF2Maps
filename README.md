@@ -45,8 +45,6 @@ Enable the running of a script file downloaded from the internet by copy/pasting
 Set-ExecutionPolicy Bypass -Scope Process -Force
 ```
 
-Answer with a Y when prompted to allow the security change.
-
 Finally, copy/paste the following line.
 
 ```powershell
