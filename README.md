@@ -27,7 +27,7 @@ Click the name of the [Install-TF2Maps.ps1](Install-TF2Maps.ps1) file to navigat
 
 Right-click the Raw button and choose to download the link to a directory of your choice on your computer.
 
-![Download raw file](docs\download-script.png)
+![Download raw file](docs/download-script.png)
 
 ## Installing Maps
 
