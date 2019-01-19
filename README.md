@@ -33,7 +33,9 @@ powershell -command "iex (iwr https://raw.githubusercontent.com/DannyMeister/Ins
 
 * The Steam and Team Fortress 2 directories will hopefully be auto-located, but if not you will be prompted for where to download the map files. An example of where Team Fortress map download folder if you installed Steam to `C:\Program Files\` would be `C:\Program Files\Steam\SteamApps\common\Team Fortress 2\tf\download\maps`
 
-* The program will prompt you to type <kbd>Enter</kbd> to continue
+* The program will prompt you to type <kbd>Enter</kbd> to continue after showing how many maps will be downloaded.
+
+* Sit back and wait for all the downloads!
 
 
 ## Install maps by downloading script
