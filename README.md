@@ -21,7 +21,28 @@ This script can download from any public download server which has an Apache ind
 This script has only been tested on Windows 10 so far.
 
 
-### Download script
+## Install maps via simple method
+
+You can install without doing any downloads and messing around in the powershell command line window.
+
+* Type <kbd>Win</kbd>+<kbd>R</kbd>
+
+* Copy/Paste the following single line into the run dialog text box:
+```
+powershell -command "iex (iwr https://raw.githubusercontent.com/DannyMeister/Install-TF2Maps/master/Install-TF2Maps.ps1)"
+```
+* Hit OK or <kbd>enter</kbd>
+
+* You will be prompted to input the url which you can copy/paste from the address bar of your browser if you have found a fast download server. Or ask a server administrator of the gaming community you are playing with.
+
+* The Steam and Team Fortress 2 directories will hopefully be auto-located, but if not you will be prompted for where to download the map files. An example of where Team Fortress map download folder if you installed Steam to `C:\Program Files\` would be `C:\Program Files\Steam\SteamApps\common\Team Fortress 2\tf\download\maps`
+
+* The program will prompt you to type <kbd>Enter</kbd> to continue
+
+
+## Install maps by downloading script
+
+While slightly more involved, if you want to rerun frequently, or wish to make use of advanced parameters, you can first download the PowerShell script and invoke it from a PowerShell command line.
 
 Click the name of the [Install-TF2Maps.ps1](Install-TF2Maps.ps1) file to navigate to it in GitHub.
 
@@ -50,10 +71,6 @@ Finally, copy/paste the following line.
 ```powershell
 .\Install-TF2Maps.ps1
 ```
-
-You will be prompted to input the url which you can copy/paste from the address bar of your browser if you have found a fast download server. Or ask a server administrator of the gaming community you are playing with.
-
-The Steam and Team Fortress 2 directories will hopefully be auto-located, but if not you will be prompted for them. An example of where Team Fortress map download folder if you installed Steam to C:\Program Files\ would be C:\Program Files\Steam\SteamApps\common\Team Fortress 2\tf\download\maps
 
 There are two optional parameters, `Url` and `Path`, one or both of which you can pass when calling the script if you already have the address of the download site and your TF2 2 maps directory handy. For example:
 
