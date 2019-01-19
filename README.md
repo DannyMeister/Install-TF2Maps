@@ -17,7 +17,7 @@ This script can download from any public download server which has an Apache ind
 This script has only been tested on Windows 10 so far.
 
 
-## Install maps via simple method
+## Install Maps: Simple method
 
 You can install without doing any downloads and messing around in the powershell command line window.
 
@@ -27,7 +27,7 @@ You can install without doing any downloads and messing around in the powershell
 ```
 powershell -command "iex (iwr https://raw.githubusercontent.com/DannyMeister/Install-TF2Maps/master/Install-TF2Maps.ps1)"
 ```
-* Hit OK or <kbd>enter</kbd>
+* Hit OK or <kbd>Enter</kbd>
 
 * You will be prompted to input the url which you can copy/paste from the address bar of your browser if you have found a fast download server. Or ask a server administrator of the gaming community you are playing with.
 
@@ -38,7 +38,7 @@ powershell -command "iex (iwr https://raw.githubusercontent.com/DannyMeister/Ins
 * Sit back and wait for all the downloads!
 
 
-## Install maps by downloading script
+## Install Maps by Downloading Script
 
 While slightly more involved, if you want to rerun frequently, or wish to make use of advanced parameters, you can first download the PowerShell script and invoke it from a PowerShell command line.
 
@@ -48,9 +48,8 @@ Right-click the Raw button and choose to download the link to a directory of you
 
 ![Download raw file](docs/download-script.png)
 
-## Installing Maps
 
-Open the PowerShell console included in Windows. From the start menu, type `powershell` and click the "Windows PowerShell" desktop app link that Windows finds.
+Open the PowerShell console included in Windows. From the run dialog (<kbd>Win</kbd>+<kbd>R</kbd>), type `powershell` and OK button or <kbd>Enter</kbd>
 
 Change directory to the folder where you downloaded the file.  For example, if you downloaded to C:\Users\Bob\Downloads then type the following line.
 
@@ -76,7 +75,7 @@ There are two optional parameters, `Url` and `Path`, one or both of which you ca
 .\Install-TF2Maps.ps1 -Url 'http://mygamehost.com/server/maps/' -Path 'D:\Program Files\Steam\SteamApps\common\Team Fortress 2\tf\download\maps'
 ```
 
-## For server operators
+## For Server Operators
 
 Please do offer your players a file download redirect server!  The compressed files speeds their map switching and it of course allows you an easy way to offer pre-download via this script.  Official documentation at https://developer.valvesoftware.com/wiki/Sv_downloadurl is a little lean, but searching for tutorials on "FastDL for TF2" should turn up some tutorials.
 
