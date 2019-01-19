@@ -6,11 +6,7 @@ In addition to directly downloading any .bsp files, it will decompress any .bsp.
 
 This script will also attempt to locate your Team Fortress 2 installation automatically.
 
-## Installing
-
-If you just want to use this script, you don't need to bother with git. You can download the single [Install-TF2Maps.ps1](Install-TF2Maps.ps1) file to your machine and run it.
-
-### Prerequisites
+## Prerequisites
 
 Steam and Team Fortress 2 must be installed for the script to auto-detect the correct map installation location.
 
