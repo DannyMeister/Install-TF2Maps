@@ -1,4 +1,4 @@
-﻿function PrintMessageToUser {
+function PrintMessageToUser {
     param(
         [Parameter( `
             Mandatory=$True, `
